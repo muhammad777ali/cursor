@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <a href="" class="header__logo">logo</a>
+                <ul class="header__list">
+                    <li><a href="" class="header__link">home</a></li>
+                    <li><a href="" class="header__link">home</a></li>
+                    <li><a href="" class="header__link">home</a></li>
+                    <li><a href="" class="header__link">home</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img src="img/Untitled/fantasy.png" alt="" class="fantasy">
+        <img src="img/Untitled/cloud1.png" alt="" class="cloud cloud-1" data-speed="1.5">
+        <img src="img/Untitled/cloud2.png" alt="" class="cloud cloud-2" data-speed="-0.8">
+        <img src="img/Untitled/cloud3.png" alt="" class="cloud cloud-3" data-speed="0.5">
+        <img src="img/Untitled/boat.png" alt="" class="boat" data-speed="1.6">
+        <div class="header__content">
+            <h1 class="header__title">paralax effect</h1>
+        </div>
+    </header>
+    <main>
+        <section class="paralax">
+            <h2 class="paralax__title">Paralax</h2>
+            <div class="paralax__box"><img src="img/Parallax_3.png" alt="" class="paralax__banner">
+                <img src="img/Parallax_4.png" data-speed="-1" alt="" class="paralax__img layer">
+                <img src="img/Parallax_5.png" data-speed="1" alt="" class="paralax__img2 layer">
+            </div>
+        </section>
+        <section class="timer">
+            <div class="container">
+                <h2 class="timer__title">Timer</h2>
+                <div class="timer__content">
+                    <div class="timer__item">
+                        <h3 class="timer__num" data-timer="32">32</h3>
+                        <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="timer__item">
+                        <h3 class="timer__num" data-timer="196">196</h3>
+                        <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="timer__item">
+                        <h3 class="timer__num" data-timer="245">245</h3>
+                        <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="timer__item">
+                        <h3 class="timer__num" data-timer="95">95</h3>
+                        <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="todo">
+            <div class="container">
+                <h2 class="todo__title">to do list</h2>
+                <form action="" class="todo__form">
+                    <input type="text" class="todo__inp">
+                    <button class="todo__add">add</button>
+                </form>
+                <ul class="todo__list">
+                    <li class="todo__item">Lorem ipsum dolor sit amet. <button class="close">X</button></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="cursor"></div>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
